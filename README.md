@@ -204,3 +204,5 @@ fix- i change it froms style.background color to only style.background.
 bug encountered- while creating the snowflakes behind the question box in css to save time , it kept on hindering button's functions.
 bug encountered- the image of star wasn't getting minimised
 fix- used display:block; which treats image like a solid building block instead of plain text.
+ ---------------------------------------------------------------------------------THANK YOU---------------------------------------------------------------------------------------------------------------------
+                                                          SNOWGLOBE FOR GIVING ME THIS OPPORTUNITY SINCE THIS WAS MY FIRST GAME
