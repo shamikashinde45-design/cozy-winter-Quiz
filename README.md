@@ -102,7 +102,8 @@ the cause- modern broswers like edge which i was using  have security protocols 
 the solution- i changed my html to include muted attribute  alongside autoplay and loop
  AI itergration - I used ai as a debugger  to understand why my video was frozen. and i broke down the mechanism suggested by the yt video by ai to understand what was used and why it was used.
 
- 5pm,29 Oct 2026
+ 5pm,29 Oct 2026 "Luck follows to people who refuse to quit"
+ GOAL- understand video and text alignment
   what is flexbox?- flexbox helpswitht the alignment for my elemnts. and the 
   <body>sergesmas canvas for css.
 -3 UNITS USED- 
@@ -112,4 +113,94 @@ the solution- i changed my html to include muted attribute  alongside autoplay a
 
 -nEW TERMS-
 -margin is forecs others elemnts outside like margin-top 
--padding iis space inside an elemnt , to increase a button size  or make text appear bolder
+-padding iis space inside an elemnt , to increase a button size  or make text appear bolder.
+
+bug encountered-Because the text is long it is rwrapping tighly inside a narrow coloumn.
+it was being aproblem to align the texts in centre.
+solution- justify-content:center; fixed it .
+Note- when u are using flexbox(display;flex;)-everything depends on flex direction
+-align-items: center; - move elements horizontally to centre
+-justify-content:center;-moves elemnts vertically 
+
+Accomplishment-
+alternative for flexbox is cssgrid which can be used by display:grid, as it has fewerlines of code
+.container{
+  display;grid;
+  place-items: center; - command for centering horizontally and vertically
+}
+bug encountered- the video was zoomed no matter what i tried to zoom it out .
+solution- I screenrecorded the video and replaced the previous video with it.
+
+9am , 30 Oct 2026
+GOAL- change the text format and make the home page look more like the ui design in mind for the web page
+bugs encountered-
+1.BUG-while aligning texts in right and left side the color was showing black instead of white for the text 
+the reason-When a semicolon is missing, CSS gets confused and treats the next property as part of the previous one. This broke your transform and color properties, preventing them from doing their jobs.
+2.BUG-initially all texts in html were mixed together in welcome container, because of which it was alignign proeprly.
+the fix- To group the texts according to their side inside.
+ seperate div , the browser perflectly algined them according to the codes
+ notes-
+ transform:translateY (-100) pulls the elemnt up by its entire height 
+ and positive value is this are to push the element down the screen.
+  
+  11pm 31st oct 2026-
+  marging-top -pushes the text down just a little bit more (px)
+  negative-
+  positive-
+  any min height and width effect on it-
+  achhievement- Was able to excute and fix design and text-alignment problems on my own:>
+              -4hrs 15mins of coding done today!
+
+1st nov 2pm, 2026
+GOAL- create button 
+#notes 
+you use <a> anchor tag  whenevr u want o create a clicabkle link.
+
+To remove the underline  of a link you use - text-decoration:none
+
+1st nov 2026, 9pm-
+goal- create quiz.html
+for linking js we use <script>tag with src  in body.
+
+5th nov,3PM using java sceipt to input the game questioons in an array.
+accomplishments-
+what is a <span> ? its an html tag it isolates a number from the sentence around it . it doesnt create a new line or spacing likr<P> or <div>
+what is innertext?-  javascript property used to change text inside html tag snd overwrite it with  a new string.
+
+#notes-
+css has a inbuilt background img property  unlike for bg video, so i odnt have to write a code in html for it.
+
+bug encountered-
+without  using has() after body for background image in quiz.html the image wasn't displaying 
+
+
+6nov 11pm
+bug encountered- using margin left with flex box was ruining the design for backlink css.
+
+
+
+shuffleQuestion is a custome js function 
+• score = 0:  acts as A storage bucket to hold the player's total points.
+• unction (Keyword)
+	• What it means: "Hey computer, I am about to teach you a new custom recipe."
+• shuffleQuestions (Custom Name)
+	• What it means: The unique name tag you gave to this specific recipe so you can call it later.
+  • { (Opening Curly Bracket)
+	• What it means: "Start of the recipe instructions." Everything inside the matching closing bracket } belongs to this function.
+
+
+9nov 2026
+GOAL-  data modellin/to complete the main game architecture on java script
+what i learnt:const- locks the variable forever it can never change
+let- tells computer that specific value will flucutate like what we used for score
+when ur setting a code for making a random string appear on screen from collection of arrays, its impossible for getting a greater nu. than the nu.s of index because math  random can never reach 1 , and if we multiply it to the array.length for eg 4 , so it will never get 4 as a random number ensuring only index avaible in the list appears.
+innertext- is to choose what specific elemnt do u want to display from the object.
+using userselction - facilitates for any data dropped by the user to be holded .
+bug encountered in visuals: when clciking the true/false buttons, the quiz box container (q-box) refused to flash green or red, even tho colsole showed no errors
+root cause:- since i used linear gradient for q box  , in css its technicallly considered as bg image and not color , so
+fix- i change it froms style.background color to only style.background.
+
+
+bug encountered- while creating the snowflakes behind the question box in css to save time , it kept on hindering button's functions.
+bug encountered- the image of star wasn't getting minimised
+fix- used display:block; which treats image like a solid building block instead of plain text.
