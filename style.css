@@ -1,0 +1,309 @@
+@import url('https://fonts.cdnfonts.com/css/retro-christa');
+@import url('https://fonts.cdnfonts.com/css/bungee');
+@import url('https://fonts.cdnfonts.com/css/sacristan');
+@import url('https://fonts.cdnfonts.com/css/home-video');
+@import url('https://fonts.cdnfonts.com/css/italianno');
+@import url('https://fonts.cdnfonts.com/css/just-another-hand');
+@import url('https://fonts.cdnfonts.com/css/kaushan-script');
+@import url('https://fonts.cdnfonts.com/css/quirkid-b');
+@import url('https://fonts.cdnfonts.com/css/lalezar');
+
+body{
+    margin:0;
+    padding:0;
+    min-height:100vh;
+    min-width:100vw;
+    background-color:#000;
+}
+
+.navbar{
+  color:aliceblue;
+  display:flex;
+  justify-content:space-around;
+  align-items:start;
+  flex-direction:row;
+  margin-top:35px;
+  font-family:'Home Video';
+}
+
+.quote{
+    color:rgb(251, 247, 219);
+    font-size:1.3rem;
+    font-family: 'Sacristan', sans-serif;
+    display:flex;
+    justify-content:center;
+ }
+
+.welcome-container{
+    position:fixed;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    z-index:1;
+    min-height:100vh;
+    min-width:100vw;
+}
+
+.start-but{
+    text-decoration:none;
+    color:rgb(255, 254, 252);
+    font-family:'Home Video', sans-serif;
+    display:flex;
+    justify-content:center;
+    margin-top:155px;
+    font-size:1.8rem;
+
+    display:inline-block;
+    
+    width:145px;
+    height:55px;
+
+    text-align:center;
+    line-height: 55px;
+    margin-left:45%;
+    margin-top:88px;
+    
+    border-radius:4px;
+    background:skyblue;
+    
+}
+
+
+
+.centre-content{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+}
+
+.coffee-text{
+    font-size:1.9rem;
+    font-family:'Just Another Hand', sans-serif;
+    color:rgb(255, 254, 226);
+    display:flex;
+    justify-content:space-around;
+    margin-top :-280px;
+    gap:45rem;
+}
+
+.sweater-text{
+    font-size:1.9rem;
+    font-family:'Just Another Hand', sans-serif;
+    color:rgb(255, 254, 226);
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:35px;
+    margin-top: -20px;
+    gap:47rem;
+}
+
+.foot{
+    text-align: center;
+    font-size:9rem;
+     font-family:'retro christa', sans-serif;
+    font-weight: 400;
+    margin-top: 135px;
+    color:rgb(187, 246, 253);
+}
+ 
+ .font {
+    text-align: center;
+    font-size:4.3rem;
+    color:beige;
+    font-family:'Italianno', sans-serif;
+    margin-top:-60px;
+}
+ 
+
+ 
+
+.minecraftvid {
+    position:fixed;
+    top:0;
+    left: 0;
+    width:100vw;
+    height:100vh;
+    z-index:-1;
+    overflow: hidden;
+}
+
+
+ #bg-video{
+    position:fixed;
+    right:0;
+    bottom:0;
+    min-width: 100%;
+    mid-height: 100%;
+    width:auto;
+    height:auto;
+    z-index: -1;
+    object-fit: cover;
+ }
+
+ #display{
+    background-color: darkblue;
+    background-image:url('christmas image.jpg');
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    margin-top:0;
+    
+ }
+
+
+
+ .navheaders{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+ }
+
+ .page-btn{
+    background-color:#b7affdca;
+     color:white;
+     padding: 8px 25px;
+     text-decoration: none;
+     border-radius:20px;
+     border:1.5px solid #dbe1f4;
+     display:flex;
+     justify-content:space-around;
+ }
+
+.back-link{
+    color:rgb(34, 33, 72);
+    background-color: antiquewhite;
+    padding:6px 12px;
+    border-radius:20px;
+    text-decoration: none;
+    width:60px;
+
+ }
+
+ .affirmat{
+    color:beige;
+    font-size:1rem;
+    display:flex;
+    justify-content:end;
+    padding:0px 60px;
+
+ }
+
+ .score-board{
+    color:aliceblue;
+    font-family:'Home Video', sans-serif;
+    margin-left:18%;
+    margin-top:15px;
+ }
+
+ 
+
+ 
+ .quiz-container{
+    background-color: #0b3c5d;
+    border-radius:20px;
+    padding:30px;
+    width:75%;
+    margin-left:15%;
+    max-width:67%;
+    margin-top:2%;
+    height:50vh;
+    border:9px solid #87ceeb;
+ }
+
+ #q-box{
+    background:linear-gradient(#d6cdff 5% ,#dde7f7 51%,#d4c8f6 100%);
+    border-radius:20px;
+    border: 2.2px solid#bd37fb;
+    padding:75px;
+    height:28vh;
+   
+ }
+
+.note{
+  font-size:1.8rem;
+  display:flex;
+  justify-content:center;
+  margin-top:-50px;                                     
+}
+
+ #question-text{
+    font-family: 'Kaushan Script', sans-serif;
+    color: #2b0d7d;
+    font-size:1.9rem;
+    display:flex;
+    justify-content:center;
+    margin-top:50px;
+    
+ }
+
+ .button-group{
+    color:#080127;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+    
+ }
+  #true-btn{
+    font-size:2.2rem;
+    width: 115px;
+    height:55px;
+    background-color:lightgreen;
+    font-family:'Lalezar', sans-serif;
+  }
+ 
+  #false-btn{
+    font-size:2.2rem;
+    width: 115px;
+    height:55px;
+    background-color:rgb(217, 33, 85);
+    font-family:'Lalezar', sans-serif;
+  }
+
+  .chat-bot{
+    display:flex;
+    justify-content:space-around;
+    margin-top:20px;
+    padding:0 10px;
+    box-sizing:border-box;
+    width:100%;
+    
+  }
+
+  #ch1 img{
+    height:auto;
+    width:70px;
+    display:block;
+    margin-left:60px;
+    margin-top:-20px;
+    
+  }
+
+  #ch2 img{
+    height:auto;
+    width:195px;
+    display:block;
+    display:flex;
+    order:0;
+    margin-right:890px;
+    margin-top:-20px;
+  }
+
+
+  .startxt{
+    color:beige;
+    margin-right:20px;
+    margin-top:40px;
+    font-size:20px;
+  }
+
+  .ptext{
+    color:beige;
+    margin-right:80px;
+    margin-top:-20px;
+    font-size:20px;
+    margin-right:10px;
+
+  }
